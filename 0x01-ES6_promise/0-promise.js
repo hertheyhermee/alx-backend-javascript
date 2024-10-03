@@ -13,4 +13,4 @@ export default function getResponseFromAPI() {
         }
       }, 1000);
     });
-  }
+}
