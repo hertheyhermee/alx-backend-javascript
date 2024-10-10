@@ -26,7 +26,3 @@ class TeacherClass implements Teacher {
         Object.assign(this, additionalAttributes);
     }
 }
-
-// Example usage
-const newTeacher = new TeacherClass('John', 'Doe', true, 'New York', { contract: true, yearsOfExperience: 5 });
-console.log(newTeacher);
